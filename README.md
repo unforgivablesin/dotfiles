@@ -13,6 +13,6 @@ echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZSOTDIR:-$
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 echo "source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
-cp -r .config/kitty ~/.config/kitty
-cp .zshrc ~/.zshrc
+cp -r dotfiles/.config ~/.config
+cp dotfiles/.zshrc ~/
 ```
